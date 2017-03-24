@@ -103,9 +103,9 @@ save-session=aria2.session
 # 每隔几秒保存，默认 0， 0 为 aria2 退出时保存，不管设置为多少 aria2 退出时都会保存 session
 save-session-interval=60
 # 即使任务被移除或完成了也保存 session （使用 save-session 值） ，对 BT 有用，默认 false
-# 会检查 session ，如果按照本配置打开 aria2 下载下来的文件如果没有删除元数据会再给你下载下来
+# 会检查 session ，打开后如果按照本配置打开 aria2 下载下来的文件如果没有删除元数据会再给你下载下来
 # 简单来说： false 不保存完成记录，true 保存完成记录
-force-save=true
+#force-save=true
 
 # 强迫症专用， force-save=true 时删除同名.aria2
 # .bat windows用， .sh linux用，需要在bat/sh里自己修改 dir
