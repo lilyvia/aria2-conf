@@ -7,7 +7,7 @@ from collections import defaultdict
 
 parser = ArgumentParser()
 parser.add_argument('-U', '--user-agent', help='user-agent', type=str,
-                    default='', metavar='USER_AGENT', dest='user_agent')
+                    default='', metavar='USER-AGENT', dest='user_agent')
 parser.add_argument('-c', '--cookie', help='use cookies', type=str,
                     default='', metavar='COOKIES', dest='cookies')
 parser.add_argument('-o', '--output', help='output name', type=str,
