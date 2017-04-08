@@ -52,8 +52,17 @@ min-split-size=2M
 split=8
 # 使用服务器文件时间，默认 false
 remote-time=true
-# 使用 UTF-8 编码，默认 false???
+# 使用 UTF-8 编码，默认 false
 content-disposition-default-utf8=true
+
+# 如果相同的文件已存在重命名文件，默认 true
+#auto-file-renaming=
+# 总是重命名文件，默认 true
+#always-resume=
+# 最大能重命名几个文件，和 always-resume 有关
+# 下载多个度盘打包文件的时候会重命名为 pack.zip, pack.1.zip... 这样，默认 0
+max-resume-failure-tries=5
+
 
 #referer ，这里由下载管理器调用
 #如果为 * ，下载 URI 也可以是 referer ，这在开启 parameterized-uri 时很有用
@@ -98,6 +107,9 @@ file-allocation=falloc
 no-file-allocation-limit=4096K
 # 证书校验，默认 true
 #check-certificate=false
+# 证书效验文件
+#ca-certificate=<FILE>
+
 
 # 任务记录
 input-file=aria2.session
@@ -189,7 +201,7 @@ dht-file-path=dht.dat
 dht-file-path6=dht6.dat
 
 # 修改 UA，默认 aria2/$VERSION
-# 只在 HTTP(S) 中有效，要拿来 PT 的洗洗睡了
+# 只在 HTTP(S) 中有效
 #user-agent=<USER_AGENT>
 # peer-id，默认 A2-$MAJOR-$MINOR-$PATCH- ，比如在 aria2 version 1.18.8 里为 A2-1-18-8-
 # 在 BT 中只有前20个字符长度生效，超出的将被丢弃，不足则随机填充至20个字符
