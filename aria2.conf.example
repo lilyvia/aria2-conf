@@ -11,7 +11,7 @@
 #rpc-user=user
 # 密码
 #rpc-passwd=passwd
-# token验证（个人建议使用 token，ssl 自签证书没意义）
+# token验证
 # 值可以为：我就是叫紫妈怎么了？有本事突然从我背后出现，把我的脸按在键盘上3sw4yde5uf6tgyhujikpo
 rpc-secret=3sw4yde5uf6tgyhujikpo
 # 允许rpc ，默认 false
