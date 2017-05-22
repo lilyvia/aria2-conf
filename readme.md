@@ -11,9 +11,6 @@
 ### Windows  
 Windows CMD 启动双击 start.bat ，后台运行双击 HideRun.vbs  
 
-### Windows  
-Windows CMD 启动双击 start.bat ，后台运行双击 HideRun.vbs  
-
 若要自启动又需要管理员权限使用任务计划程序  
 
 1. 打开任务计划程序：控制面板→管理工具→任务计划程序  
