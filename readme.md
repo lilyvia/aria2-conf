@@ -45,11 +45,11 @@ Windows CMD 启动双击 start.bat ，后台运行双击 HideRun.vbs
 
 * 新增一个下载管理  
 * 如果你的系统环境不对：  
- * 可执行路径：`PATH\Python2\pythonw.exe`  
- * 参数模板：`PATH\Aria2\run.pyw --secret <SECRET> --dir PATH [--cookie COOKIE] [--referer REFERER] [--user-agent UA] [URL]`  
+  * 可执行路径：`PATH\Python2\pythonw.exe`  
+  * 参数模板：`PATH\Aria2\run.pyw --secret <SECRET> --dir PATH [--cookie COOKIE] [--referer REFERER] [--user-agent UA] [URL]`  
 * 如果系统环境正确：  
- * 可执行路径：`PATH\Aria2\run.pyw`  
- * 参数模板： `--secret <SECRET> --dir PATH [--cookie COOKIE] [--referer REFERER] [--user-agent UA] [URL]`  
+  * 可执行路径：`PATH\Aria2\run.pyw`  
+  * 参数模板： `--secret <SECRET> --dir PATH [--cookie COOKIE] [--referer REFERER] [--user-agent UA] [URL]`  
 * 参数模板 `--secret <SECRET>` 里的 `<SECRET>` 替换为 `aria2.conf` 里的 `rpc-secret=` 后面的值  
 * 如果需要局域网或互联网使用，在参数模板里加上`--rpc http://127.0.0.1:6800/jsonrpc` ，127.0.0.1:6800 替换为你需要的 IP/域名和端口  
 * 如果文件名不正确可以加上 `[--output FNAME]` ，加上之后可能会导致文件无法下载  
