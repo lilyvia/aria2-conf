@@ -1,12 +1,11 @@
 # 根据 [Aria2 Manual](https://aria2.github.io/manual/en/html/) 汉化大部分的配置文件  
 
-[汉化的配置文件](https://github.com/lilyvya/aria2-conf/blob/master/aria2.conf.example)  
+[汉化的配置文件](https://github.com/lilyvya/aria2-conf/blob/master/aria2.conf)  
 **请勿直接使用此配置文件，至少需要更改** `rpc-secret=` **的值**  
 
-下载后去掉所有文件 .example 后缀  
-要运行还需要 [Aria2.exe](https://github.com/aria2/aria2/releases) (Windows) ，建议和 [webui-aria2](https://github.com/ziahamza/webui-aria2) 搭配使用  
+Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases) ，建议和 [AriaNg](https://github.com/mayswind/AriaNg) 搭配使用，或者 [webui-aria2](https://github.com/ziahamza/webui-aria2), [yaaw](https://github.com/binux/yaaw)
 
-## 下面是 Windows 的启动方式和 Firefox FlashGot 调用  
+## Windows 的启动方式和 Firefox FlashGot 调用  
 
 ### Windows  
 Windows CMD 启动双击 start.bat ，后台运行双击 HideRun.vbs  
