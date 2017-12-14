@@ -45,14 +45,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-
-webui-aria2
-aria2c.exe
-aria2.conf
-aria2.log
-aria2.session
-*.py[cod]
-del.bat
-del_bt.bat
-rm.sh
-rm_bt.sh
