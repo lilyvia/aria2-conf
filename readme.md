@@ -3,7 +3,11 @@
 [汉化的配置文件](https://github.com/lilyvya/aria2-conf/blob/master/aria2.conf)  
 **请勿直接使用此配置文件，至少需要更改** `rpc-secret=` **的值**  
 
-Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases) ，建议和 [AriaNg](https://github.com/mayswind/AriaNg) 搭配使用，或者 [webui-aria2](https://github.com/ziahamza/webui-aria2), [yaaw](https://github.com/binux/yaaw)
+Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases) ，建议和 [webui-aria2](https://github.com/ziahamza/webui-aria2) 搭配使用，或者 [AriaNg](https://github.com/mayswind/AriaNg) , [yaaw](https://github.com/binux/yaaw)  
+
+
+[Linkle](https://chrome.google.com/webstore/detail/linkle/okcgleaeeoddghoiabpapmnkckncbjba?hl=zh-CN)  
+[Aria2c Integration](https://chrome.google.com/webstore/detail/aria2c-integration/cnkefpcjiolhnmhfpjbjpidgncnajlmf?hl=zh-CN)  
 
 ## Windows 的启动方式和 Firefox FlashGot 调用  
 
