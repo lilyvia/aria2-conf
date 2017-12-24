@@ -6,8 +6,10 @@
 Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases) ，建议和 [webui-aria2](https://github.com/ziahamza/webui-aria2) 搭配使用，或者 [AriaNg](https://github.com/mayswind/AriaNg) , [yaaw](https://github.com/binux/yaaw)  
 
 
+### Chrome 扩展
 [Linkle](https://chrome.google.com/webstore/detail/linkle/okcgleaeeoddghoiabpapmnkckncbjba?hl=zh-CN)  
 [Aria2c Integration](https://chrome.google.com/webstore/detail/aria2c-integration/cnkefpcjiolhnmhfpjbjpidgncnajlmf?hl=zh-CN)  
+无需 python，均无法传递除 url 以外的信息  
 
 ## Windows 的启动方式和 Firefox FlashGot 调用  
 
