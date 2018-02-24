@@ -9,7 +9,7 @@ Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases)
 ### Chrome 扩展
 [Linkle](https://chrome.google.com/webstore/detail/linkle/okcgleaeeoddghoiabpapmnkckncbjba?hl=zh-CN)  
 [Aria2c Integration](https://chrome.google.com/webstore/detail/aria2c-integration/cnkefpcjiolhnmhfpjbjpidgncnajlmf?hl=zh-CN)  
-无需 python，均无法传递除 url 以外的信息  
+无需 python
 
 ## Windows 的启动方式和 Firefox FlashGot 调用  
 
