@@ -9,7 +9,7 @@ Windows 要运行还需要 [Aria2c.exe](https://github.com/aria2/aria2/releases)
 ### Chrome 扩展
 [Linkle](https://chrome.google.com/webstore/detail/linkle/okcgleaeeoddghoiabpapmnkckncbjba?hl=zh-CN)  
 [Aria2c Integration](https://chrome.google.com/webstore/detail/aria2c-integration/cnkefpcjiolhnmhfpjbjpidgncnajlmf?hl=zh-CN)  
-[Camtd](https://chrome.google.com/webstore/detail/camtd-aria2-download-mana/lcfobgbcebdnnppciffalfndpdfeence/related?utm_source=chrome-ntp-icon)（使用这个扩展不需要 webui-aria2 或 AriaNg ）  
+[Aria2 for Chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)（使用这个扩展不需要 webui-aria2 或 AriaNg ）  
 
 ## Windows 的启动方式和 Firefox FlashGot 调用  
 
